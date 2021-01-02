@@ -1,0 +1,21 @@
+div{
+	padding: 400px 200px 200px 700px;
+	background-image: url("img.jpg") ;
+	background-size: cover; 
+}
+#btn{
+	font-size: 25px;
+	border-radius: 10px;
+
+}
+#hd{
+	color: black;
+  	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  	font-size: 60px;
+}
+
+#status{
+	color: black;
+  	text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+  	font-size: 75px;
+}
