@@ -10,12 +10,17 @@
 			var status = ["more happier","more stronger","more prettier","more confident","more thinner","sad","lonely","married","happily single","having 2 kids","bald","more richer","homeless"];
 			var ran = Math.floor(Math.random()*status.length);
 			document.getElementById("status").textContent ='" '+ status[ran]+' "';
+			document.getElementById("hd").innerHTML=" In 2021 "+document.getElementById("name").value + " will be ";
 		}
+
 	</script>
+	<center><h2 id="tit">2021 Predictor..!!!</h2></center>
 	<div>
-		<h2 id="hd" >In 2021 I'll be...</h2>
-		<button id="btn" onclick="predictor()">Check here!!</button>
+		<h2 id="nm">May I know your name..?</h2><input type="text" id="name">
+		<h2 id="hd" ></h2>
 		<p id ="status"></p>
+		<button id="btn" onclick="predictor()">Check here!!</button>
+		
 	</div>
 </body>
 </html>
